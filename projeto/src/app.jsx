@@ -1,13 +1,13 @@
-import { Outlet } from "react-router-dom"; // Para renderizar as rotas aninhadas
-import Navbar from "./components/Navbar"; // Importa o componente de navegação
+import { Outlet } from "react-router-dom"; 
+import Navbar from "./components/Navbar"; 
 
-import "./App.css"; // Estilos específicos do App
+import "./App.css"; 
 
 function App() {
   return (
     <div className="app-container">
       <Navbar /> {/* Renderiza a barra de navegação */}
-      <Outlet /> {/* Renderiza o componente correspondente à rota */}
+      <Outlet /> 
     </div>
   );
 }
