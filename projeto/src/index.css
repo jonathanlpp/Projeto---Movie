@@ -1,0 +1,20 @@
+* {
+    font-family: Helvetica; /* Define a fonte padrão */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Para garantir que padding e margin não afetem a largura */
+  }
+  
+  body {
+    background-color: #000; /* Cor de fundo da página */
+  }
+  
+  a {
+    text-decoration: none; /* Remove sublinhado dos links */
+    color: #f7d354; /* Cor dos links */
+    transition: 0.5s; /* Efeito de transição */
+  }
+  
+  a:hover {
+    color: #b8930c; /* Cor do link ao passar o mouse */
+  }
