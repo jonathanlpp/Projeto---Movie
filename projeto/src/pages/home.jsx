@@ -3,8 +3,8 @@ import MovieCard from "../components/MovieCard"; // Componente para exibir os fi
 
 import "./MoviesGrid.css"; // Estilos específicos da grade de filmes
 
-const moviesURL = import.meta.env.VITE_API; // URL da API
-const apiKey = import.meta.env.VITE_API_KEY; // Chave da API
+const moviesURL = import.meta.env.VITE_API; 
+const apiKey = import.meta.env.VITE_API_KEY; 
 
 const Home = () => {
   const [topMovies, setTopMovies] = useState([]); // Estado para armazenar filmes
